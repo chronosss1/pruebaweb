@@ -43,6 +43,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 Aquí empezaria la lista de funciones o ago supongo
 
-## igual sirve
-1. f1
-2. f2
+##1. f1
+##2. f2
+##3. f3
