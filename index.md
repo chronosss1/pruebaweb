@@ -37,12 +37,14 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 
-### Lista de funciones
+#STDIO
 
-...
 
-Aquí empezaria la lista de funciones o ago supongo
+##1. printf:
+printf : (const char *, ...);
 
-##1. f1
+Description:
+The function printf() write in the screen the strings introduced in the input.
+
 ##2. f2
 ##3. f3
