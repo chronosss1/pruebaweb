@@ -40,7 +40,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 # STDIO
 
 
-## 1. printf:
+## printf:
 int printf : (const char *, ...);
 
 Description:
