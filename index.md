@@ -75,3 +75,16 @@ int scanf(const char * format, char *)
 Description:
 It reads from the standard input to the char pointer indicated as 2º argument.  
 It returns 0 in success or -1 if not.
+
+
+## fscanf:
+
+int fscanf(FILE * stream, const char * format, char *)
+```diff
+- La funcion tiene los argumentos simplificados(en la original son varios) hay que decidir si simplificarlo o mantener varios
+```
+
+
+Description:
+It reads from the file stream given to the char pointer indicated as 3º argument.  
+It returns 0 in success or -1 if not.
