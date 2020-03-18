@@ -48,5 +48,10 @@ The function printf() write in the screen the strings introduced in the input.
 It returns an int, if it worked correctly it returns 0 if not it returns -1.
 
 
-##2. f2
-##3. f3
+## fprintf:
+fprintf(FILE * stream,char *, ...);
+
+Description:
+The function fprintf() write in the stream given the strings introduced in the input.
+It returns an int, if it worked correctly it returns 0 if not it returns -1.
+
