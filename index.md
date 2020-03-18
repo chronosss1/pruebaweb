@@ -68,7 +68,9 @@ It does not return anything.
 ## perror:
 
 int scanf(const char * format, char *)  
-<span style=“color:green;”>La funcion tiene los argumentos simplificados(en la original son varios) hay que decidir si simplificarlo o mantener varios</span>
+<div class="text-red mb-2">
+La funcion tiene los argumentos simplificados(en la original son varios) hay que decidir si simplificarlo o mantener
+</div>
 
 Description:
 It reads from the standard input to the char pointer indicated as 2º argument.  
