@@ -65,7 +65,7 @@ It prints the strings s followed by the error corresponding to the value of errn
 It does not return anything.
 
 
-## perror:
+## scanf:
 
 int scanf(const char * format, char *)  
 <div class="text-red mb-2">
