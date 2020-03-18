@@ -44,7 +44,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 int printf : (const char *, ...);
 
 Description:
-The function printf() write in the screen the strings introduced in the input.
+The function printf() write in the screen the strings introduced in the input.  
 It returns an int, if it worked correctly it returns 0 if not it returns -1.
 
 
@@ -52,7 +52,7 @@ It returns an int, if it worked correctly it returns 0 if not it returns -1.
 fprintf(FILE * stream,char *, ...);
 
 Description:
-The function fprintf() write in the stream given the strings introduced in the input.
+The function fprintf() write in the stream given the strings introduced in the input.  
 It returns an int, if it worked correctly it returns 0 if not it returns -1.
 
 
@@ -61,6 +61,6 @@ It returns an int, if it worked correctly it returns 0 if not it returns -1.
 perror(const char * s)
 
 Description:
-It prints the strings s followed by the error corresponding to the value of errno in that moment.\n
+It prints the strings s followed by the error corresponding to the value of errno in that moment.  
 It does not return anything.
 
