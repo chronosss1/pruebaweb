@@ -58,7 +58,7 @@ It returns an int, if it worked correctly it returns 0 if not it returns -1.
 
 ## perror:
 
-perror(const char * s)
+void perror(const char * s)
 
 Description:
 It prints the strings s followed by the error corresponding to the value of errno in that moment.  
@@ -88,3 +88,62 @@ int fscanf(FILE * stream, const char * format, char *)
 Description:
 It reads from the file stream given to the char pointer indicated as 3º argument.  
 It returns 0 in success or -1 if not.
+
+
+
+
+
+# PROCS
+
+
+## create_proc:
+
+int create_proc(void)
+
+Description: creates a new process, copy of the caller process.  
+It returns 0 in success or -1 if not.
+
+
+## execute
+
+int execute(const char *path, char *const arguments[ ]);
+
+Description: execute the program located in the path with the arguments in arguments by replacing the code of the caller process.  
+It returns 0 in success or -1 if not.
+
+
+## pid_of:
+
+int pid_of(void);  
+
+Description: gives the Process identificator of the caller process.  
+It returns a positive integer on success, -1 on error.
+
+
+## get_priority:
+
+int get_priority(int pid);  
+
+Description: gives the priority of the process whose Process Identifier matchs pid.  
+It returns a positive integer on success, -1 on error.
+
+
+## set_priority:
+
+int set_priority(int pid);  
+
+Description: tryes to change the priority of the process whose Process Identifier matchs pid.  
+It returns 0 on success, -1 on error.
+
+
+## signal:
+
+int signal(int pid, sig_t signal);  
+
+Description: sends the signal “signal” to the process whose PID is pid. This function does not check reception. Only assures signal delivery.  
+Signals:  
+SIGKILL : kills a process.  
+SIGSEGV : kills the process and starts memory dump.  
+etc  
+It returns 0 if pid is corresponded to a PID , -1 if not.  
+
