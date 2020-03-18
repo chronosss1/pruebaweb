@@ -61,6 +61,6 @@ It returns an int, if it worked correctly it returns 0 if not it returns -1.
 perror(const char * s)
 
 Description:
-It prints the strings s followed by the error corresponding to the value of errno in that moment.
+It prints the strings s followed by the error corresponding to the value of errno in that moment.\n
 It does not return anything.
 
