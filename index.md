@@ -69,7 +69,7 @@ It does not return anything.
 
 int scanf(const char * format, char *)  
 <div class="text-red mb-2">
-La funcion tiene los argumentos simplificados(en la original son varios) hay que decidir si simplificarlo o mantener
+La funcion tiene los argumentos simplificados(en la original son varios) hay que decidir si simplificarlo o mantener varios
 </div>
 
 Description:
